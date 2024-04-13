@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
+;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: black;
+  
+}
+.main{
+    background-image: url(assets/bg.jpg) ;
+   
+ height: 120vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    position: relative;
+    text-align: center;
+    
+
+     
+   
+
+}
+@media screen and (max-width: 960px)
+{
+    .main{
+        height: 70vh;
+    }
+    .main .nav
+    {
+        height:50px;
+
+    }
+    .main .text {
+        height: calc(100%-50px);
+    }
+    .main .text> :first-child{
+        font-size: 32px;
+        
+    }
+    .main .text> :nth-child(2){
+        font-size: 18px;
+        
+    }
+    .main .text> :nth-child(3){
+        font-size: 15px;
+       
+    }
+   
+    .main .box{
+        height: 70vh;
+    }
+    .main .gs{
+        font-size: 18px;
+   
+    }
+    .first .tt
+    {
+       font-size: 18px;
+       
+    }
+    .first .bb{
+        font-size: 32px;
+    }
+   .last .ttl
+   {
+    font-size: 32px;
+   }
+   .last .bub{
+    font-size: 18px;
+   }
+   .last .gs{
+    font-size: 18px;
+
+}
+.last .mm{
+    font-size: 18px;
+}
+}
+
+
+
+ nav{
+    position: relative;
+    display: flex;
+    max-width: 77vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 85px;
+
+
+
+}
+nav>div
+{
+    display: flex;
+    gap: 25px;
+}
+nav img{
+position: relative;
+z-index: 10;
+}
+nav button{
+position: relative;
+z-index: 10;
+
+}
+
+.box{
+
+    background-color: black;
+    height: 120vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+.text{
+    height: calc(100% - 85px);
+    color: white;
+    position: relative;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: "Poppins", sans-serif;
+       
+        font-style: normal;
+        gap: 23px;
+        padding: 0  30px;
+      
+      
+
+      
+      
+}
+.text> :first-child{
+    font-size: 48px;
+    font-weight:bolder ;
+    text-align: center;
+}
+.text> :nth-child(2){
+    font-size: 24px;
+    font-weight:400;
+    text-align: center;
+}
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight:400;
+    text-align: center;
+}
+.line{
+    height: 8px;
+    background-color:  rgb(41, 41, 41);
+}
+.btn{
+   
+   
+  
+    padding: 4px 17px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(27, 27, 27,0.5);
+    border: 1px solid rgb(106, 103, 103);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.sn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.gs{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.fl input{
+    border: 1px solid rgb(106, 103, 103);
+    background-color: rgb(27, 27, 27,0.5);
+    padding-left: 15px;
+    padding-right: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    color: white;
+    
+    
+    /* padding: 5px 20px; */
+}
+.fl
+{   
+   
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    gap: 5px;
+    color: white;
+  
+    justify-content: center;
+    
+    
+
+
+}
+.first{
+   
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: auto;
+  
+    justify-content:center;
+    max-width: 75vw;
+    padding-top: 70px;
+    padding-bottom: 70px;
+   
+  
+   
+   
+}
+@media screen and (max-width: 1300px)
+{
+    .first{
+        flex-wrap: wrap;
+    }
+   
+}
+
+.tt{
+    margin: auto;
+    font-size:22px;
+  text-align: center;
+}
+.im img{
+    width: 555px;    
+    position: relative;
+}
+.bb
+{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.last
+{
+    color: white;
+}
+.ttl
+{
+    font-size: 45px;
+    font-weight: 1000;
+    text-align: center;
+  
+  
+    padding: 34px;
+    
+    /* margin-top: 10;
+    margin-bottom: 5; */
+  
+    
+}
+.df
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+    
+   
+}
+.bub
+{
+    font-size: 25px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: left;
+   border: none;
+   margin: auto;
+   padding:20px 20px ;
+   width: 75vw;
+   cursor: pointer;
+   
+ 
+}
+.bub:hover{
+    background-color: rgb(65, 64, 64);
+}
+.mm{
+    display: flex;
+    flex-direction: column;
+  gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 20px;
+   height: 35vh;
+}
